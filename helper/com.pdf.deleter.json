@@ -1,0 +1,9 @@
+{
+  "name": "com.pdf.deleter",
+  "description": "Moves local PDF files to Windows Recycle Bin",
+  "path": "C:\\Users\\devaj\\Scripts\\PDF Deleter\\helper\\pdf_deleter_helper.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://ehahkekkhjcfhfohbmbghbdhejlpmllh/" 
+  ]
+}

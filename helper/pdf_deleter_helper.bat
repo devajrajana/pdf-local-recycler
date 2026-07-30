@@ -1,0 +1,1 @@
+@python "C:\Users\devaj\Scripts\PDF Deleter\helper\pdf_deleter_helper.py" %*
