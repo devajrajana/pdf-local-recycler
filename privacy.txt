@@ -1,0 +1,13 @@
+Privacy Policy — Local PDF Recycler
+
+Last updated: August 10, 2026
+
+This extension does not collect, store, transmit, sell, or share any personal information or user data.
+
+The extension operates locally within Microsoft Edge and does not send user data to external servers.
+
+No analytics, tracking, advertising, or third-party data collection services are used.
+
+If the extension's functionality changes in the future, this privacy policy will be updated accordingly.
+
+Contact: devajrajana@gmail.com
