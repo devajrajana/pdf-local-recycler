@@ -1,7 +1,7 @@
 // Automatically open the onboarding page when the user installs the extension
 chrome.runtime.onInstalled.addListener((details) => {
   if (details.reason === "install") {
-    chrome.tabs.create({ url: chrome.runtime.getURL("welcome.html") });
+    chrome.tabs.create({ url: chrome.runtime.getURL("https://devajrajana.github.io/pdf-local-recycler/install") });
   }
 });
 
