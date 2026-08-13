@@ -27,7 +27,7 @@ begin
       '  "path": "' + FilePath + '",' + #13#10 +
       '  "type": "stdio",' + #13#10 +
       '  "allowed_origins": [' + #13#10 +
-      '    "chrome-extension://ehahkekkhjcfhfohbmbghbdhejlpmllh/"' + #13#10 +
+      '    "chrome-extension://fdhgkhccehegdfbfgjkodkkfaodhaefg/"' + #13#10 +
       '  ]' + #13#10 +
       '}';
 
