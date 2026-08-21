@@ -1,7 +1,8 @@
 {
   "manifest_version": 3,
+  "key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDRnRmESZaFlalQR3yIUamPYpjvCjD0ERJMMBkd+V9xazdZYmSc98CVpESwLvGxgf7Zs1gXDBtXX1Sgjciy2X19Qpb/BonWsA0YqI69Y+EjuDP91gXhgK21dJv2xk95DlyDVTDz9xBsr1MA4GKEqqkbqWYgoYZ4dzZKWSTUBMBeenshC1aiC2/7Kfx9aradP9VWgad4rNCN9Hd2oOkmssbWZrP7v9gYrdhllT6VH61Id6jRqQy5gfY6HZNXAiv7b5AmKvlm0x9Vlu8qINA05+QOFhpeuhXbBAkIa+t4/d6qjSo3C+UYxG+ZgwuA5bMR3YoYGlREmL9VSniXN5R1EggRAgMBAAECggEAAlKbH/pWXtnFfx+iEDsJBcJSIk8nmbZZHVtorwqLXAAtiqHRFMtkaLdIRF3qZoAjqP/lJjEHjVR/siomb8aCYhGLbZbOwjOmZ+aLDMT/KQ+Q3x6XAOR77q3OTwUfIYVFaymJGe4ouKH8tnhfpX6xBWult3Wl8TT8KgWKdFSVJeoKX/DHHZQFPbc3aF3wlB83CwwbF0gOi/MZUQPjmtSGGx+sig8tX1qLRy/F/lrVLXngtaL8XG8GmXOyFRLfuFxoaamCf52a6euw3yoe/L431xKUxq1goTqQzEWAc+CmrG96DAawGGnMEEdcbVKlcWcH2n/EWt9ZOdnyhki4PDbBHQKBgQD9vi5R+pkDM9PYzDCoMQgvBNvOYZ5sdU8Rc1B1pyReRQuTVmcaKvbeGFdQ3qxsgeHxW6TytXIWE16Gunqvm2B+I2HhL6aVO2N/GaZlu9cWRnf8KB6fe6gunenCN2IETRDcL1IyCFdDXGzCCzjSl0akR6zLd3qxdsDmn0HWn33sywKBgQDTem2sL+UOv7OnnHJWdMAoYHi/SkKx7i/GR/uyxND8nAJXPU/q7zmKOY2a5VN6wxxQWASqnNlLODKg5GNj09oPhMBvvL4Vp+mNX95EPLZaZzsvCw1b7mm7qckvd8ow++zw7bt9X/4sJDDCWC3FLTh5HyxwrMpCv1BCSbqd/Wq/EwKBgA4kvKY7Jq5EBEnwT8IAQamFRs9BJ7h57XdWiySTtXY/uP50cXjG7k3A45URZGED+Fkgt5gDvyE14S33VQFW0tEVHc6Ufl+RGOGrx1eiWcHXGbcHcXWISf6XNMFrnt4IgakURiudxWduzm0efQNYBUsA58PLnB4qNWRleiEBcN5zAoGBALnAI2zGdM9LmqVySQufaNkOQ4Dh3UskB1qGB5KyRU5cScIO3I9iqIu8maCgJX8CuW/on9CsDECBkBa6BIK+ph5TYCPFCMFEx2Oh/Ty6hwFJAzcC4i0JcF2heFD1SudToH7OkYxCMKLc9ub9RNaYLa5Vr1cYrl+KYxiWYhA7cvN5AoGAMlNSBHyrTjtQMvLcgMEbQY1haSqty+6BStNG+oDrn5MPUQbbeIVe1bL5ZEhz8THmLp0nTyQd0CP6ORPmVVOh8ET7yTjSY+UD9qLBKiNlnbsbFFPUqNSvFOwG/wFBa3Ya653nO6NqeJvYBrSkbQfurhdHKbvYL/kSdiFnNg5STig=",
   "name": "Local PDF Recycler",
-  "version": "1.2",
+  "version": "1.3",
   "description": "Moves current local PDF to Windows Recycle Bin and closes the tab.",
   "permissions": [
     "tabs",
@@ -36,7 +37,8 @@
   "commands": {
     "delete-pdf": {
       "suggested_key": {
-        "default": "Alt+D"
+        "default": "Ctrl+Shift+X",
+        "mac": "Command+Shift+X"
       },
       "description": "Delete active local PDF file"
     }
